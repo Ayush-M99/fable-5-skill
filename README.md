@@ -53,6 +53,11 @@ That's it. Claude Code picks it up automatically. Trigger by typing
 `/fable-5`, or just ask to "systematize", "make repeatable", "turn into an
 SOP", or "capture how I do X" — the description makes it fire on its own.
 
+Then copy `GLOBAL-CLAUDE-MD-TEMPLATE.md` to `~/.claude/CLAUDE.md` (merge by
+hand if you already have one — never overwrite). That file makes every
+session enforce the pipeline (ledger, rubrics, escalation) without the skill
+having to fire first.
+
 ## Install (project-only, shared via git)
 
 Copy the folder to `<repo>/.claude/skills/fable-5/` and commit. Everyone who
