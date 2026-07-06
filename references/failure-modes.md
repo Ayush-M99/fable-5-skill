@@ -6,17 +6,17 @@ step 4). Newest entries at the top.
 ## 2026-07-07 (later, same session) — from the all-domains rebuild
 
 6. **Invented brain dumps lose to evidence on disk.** First fill of the
-   master prompt guessed "vibe-codes UI apps" from installed skills. The
-   user's actual repos (D:\ drive) showed a spec-first engineer with a
-   MASTER_SPEC-is-law project, progress ledgers, error catalogues, fake/real
+   master prompt guessed the user's workflow from their installed tools. The
+   user's actual repos (on a different drive) showed a spec-first engineer
+   with a spec-is-law project, progress ledgers, error catalogues, fake/real
    conformance testing. Lesson: before describing how a user works, LOOK AT
    THEIR REPOS — recent projects beat installed-tools inference every time.
    Ask where the code lives if the obvious drives look empty.
-7. **The user's best project IS the spec.** CareerOS already contained the
-   target system (bootstrap files, ledger discipline, binary DoD); the
-   rebuild's job was extraction and generalization, not invention. Lesson:
-   hunt for the user's best-run artifact first and mine it — the bar and the
-   patterns are already theirs, which beats anything imported.
+7. **The user's best project IS the spec.** Their best-run repo already
+   contained the target system (bootstrap files, ledger discipline, binary
+   DoD); the rebuild's job was extraction and generalization, not invention.
+   Lesson: hunt for the user's best-run artifact first and mine it — the bar
+   and the patterns are already theirs, which beats anything imported.
 8. **Discipline that isn't portable doesn't propagate.** One repo had full
    discipline; three sibling repos had none. Nothing hand-built inside one
    project transfers by itself. Lesson: the fix for "my best project does

@@ -51,5 +51,5 @@
 5. **Works-when-watched.** No alerts, so failures surface via users. Step 5.
 6. **Docker/host drift.** Tested in container, deployed on host (or vice
    versa). The ledger's environment block states which is canonical —
-   CareerOS pattern: "Docker pg16 is the DB verify path", written down once,
-   obeyed every session.
+   e.g. "Docker pg16 is the DB verify path", written down once, obeyed
+   every session.

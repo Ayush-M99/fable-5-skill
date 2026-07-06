@@ -2,7 +2,7 @@
 
 Per-domain engineering knowledge, written so a cheap model can run each
 domain's pipeline without a strong model's instincts. Extracted from a real
-spec-first project (CareerOS pattern) plus general engineering practice, by
+production spec-first repository plus general engineering practice, by
 Fable 5 on 2026-07-07.
 
 ## How these are used

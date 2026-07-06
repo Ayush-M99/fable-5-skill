@@ -5,19 +5,19 @@
 1. **Contracts first (best):** API schemas, message formats, DB schema, and
    state machines written BEFORE handlers. Every entity's states and legal
    transitions enumerated. Every failure gets a stable error code from one
-   catalogue (CareerOS pattern: `CAR-*` codes, one file, every failure maps
-   to one) — never ad-hoc error strings.
+   catalogue (pattern: prefixed codes like `APP-DB-001`, one file, every
+   failure maps to exactly one) — never ad-hoc error strings.
 2. **Failure semantics per boundary (best):** for every network hop, decide
    and write down: timeout value, retry policy (with backoff + cap),
    idempotency strategy, and what the caller sees on permanent failure.
    "We'll handle errors later" is the project-killing sentence.
 3. **Single-node correctness (Sonnet):** business logic tested with fakes
-   for every external dependency (CareerOS pattern: Fake providers +
-   conformance test mixins shared between fake and real — the fake is
-   guaranteed to behave like the real one because both pass the same suite).
+   for every external dependency (pattern: Fake providers + conformance
+   test mixins shared between fake and real — the fake is guaranteed to
+   behave like the real one because both pass the same suite).
 4. **Integration against real deps (Sonnet):** dockerized real DB/queue,
-   migrations checked both directions (`upgrade head` + drift check = zero
-   diffs — the CareerOS B-001 pattern).
+   migrations checked both directions (`upgrade head` clean + ORM/schema
+   drift check = zero diffs).
 5. **Chaos pass (Sonnet):** kill the DB mid-request, duplicate a message,
    deliver out of order, make a dependency slow-but-alive. The written
    failure semantics from step 2 must be what actually happens.
