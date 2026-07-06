@@ -149,3 +149,9 @@ raise its own reasoning effort.
   determinism rules, watch-it-fail rule, honesty rules.
 - `references/writing-craft.md` — prose/docs/copy: point first, concrete
   beats abstract, the deletion rules, microcopy, per-doc-type structure.
+- `references/delegation-protocol.md` — packaging work for cheaper models:
+  the five-part task package, tier sizing, receiver's verification rubric.
+  Read this when splitting any rebuilt system's steps across model tiers.
+- `references/legacy-refactoring.md` — changing untested code:
+  characterization tests first, seams, small always-green steps, strangler
+  pattern; behavior preserved unless explicitly told otherwise.

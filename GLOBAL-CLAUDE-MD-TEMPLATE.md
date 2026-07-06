@@ -30,8 +30,8 @@
   claiming done, run the domain's rubric from
   `~/.claude/skills/fable-5/references/domain-playbooks/<domain>.md`
   (frontend-ui, design-craft, game-dev, ml-research, agentic-systems,
-  api-design, data-viz, devops-infra, distributed-systems,
-  systems-performance).
+  api-design, data-modeling, data-viz, security-hardening, devops-infra,
+  distributed-systems, systems-performance).
 - Anything user-facing additionally passes design-craft.md's anti-slop
   checklist; games additionally apply game-dev.md's juice table to the core
   verb before content.

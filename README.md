@@ -14,11 +14,11 @@ Claude Fable 5 on 2026-07-07, its last included-in-plan day.
   after every run. This file is the compounding part — keep it when upgrading.
 - `references/domain-playbooks/` — engineering pipelines with binary
   verification rubrics, per-step model routing, and known failure modes for
-  ten domains: frontend/UI, design craft (typography/color/space/motion as
-  numbers, anti-slop checklist), game dev (core-loop-first, the juice table
-  of game-feel numbers, playtest rules), ML research, agentic systems,
-  API design, data visualization, DevOps, distributed systems, hard
-  systems/performance. Plus a universal project bootstrap (CLAUDE.md +
+  twelve domains: frontend/UI, design craft (typography/color/space/motion
+  as numbers, anti-slop checklist), game dev (core-loop-first, the juice
+  table of game-feel numbers, playtest rules), ML research, agentic systems,
+  API design, data modeling, data visualization, security hardening,
+  DevOps, distributed systems, hard systems/performance. Plus a universal project bootstrap (CLAUDE.md +
   PROGRESS.md ledger + SPEC + decisions/) any software project should start
   with.
 - `references/thinking-protocol.md` — problem decomposition as explicit
@@ -30,6 +30,10 @@ Claude Fable 5 on 2026-07-07, its last included-in-plan day.
   watch-it-fail rule, determinism, honesty rules.
 - `references/writing-craft.md` — prose, docs, and UI copy: point first,
   deletion rules, per-document-type structures, microcopy.
+- `references/delegation-protocol.md` — how to package work so a cheaper
+  model succeeds: the five-part task package, tier sizing, receiver rubric.
+- `references/legacy-refactoring.md` — characterization tests, seams,
+  always-green steps, strangler pattern.
 - `references/debugging-protocol.md` — procedural debugging: reproduce,
   read the error, one written hypothesis at a time, bisection, hard rules.
 - `references/escalation-and-limits.md` — how a cheap model detects it's out

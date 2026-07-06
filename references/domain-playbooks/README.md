@@ -25,7 +25,9 @@ Fable 5 on 2026-07-07.
 | `ml-research.md` | Machine learning / deep learning research |
 | `agentic-systems.md` | LLM apps, agents, prompt pipelines |
 | `api-design.md` | APIs and library interfaces — contracts, errors, evolution |
+| `data-modeling.md` | Database schemas, indexing, migrations, query discipline |
 | `data-viz.md` | Charts and dashboards — chart choice by lookup, honesty rules |
+| `security-hardening.md` | Defensive security — threat-model-lite, input/authz/secrets checklists |
 | `devops-infra.md` | CI/CD, infrastructure, deployment |
 | `distributed-systems.md` | Backends, queues, multi-service systems |
 | `systems-performance.md` | Low-level, performance-critical, hard systems |
