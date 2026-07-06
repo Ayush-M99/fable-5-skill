@@ -1,5 +1,9 @@
 # Playbook — Frontend / UI apps (web + mobile)
 
+Visual quality rules (typography, color, spacing, motion, anti-slop
+checklist) live in `design-craft.md` — load it alongside this pipeline for
+anything user-facing.
+
 ## Pipeline
 
 1. **Spec (best):** one page before any code — screens list, user flows,

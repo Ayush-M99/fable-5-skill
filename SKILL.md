@@ -119,10 +119,10 @@ raise its own reasoning effort.
   rebuilds. Read it BEFORE Phase 1 of every run; append after Phase 6.
 - `references/domain-playbooks/` — per-domain engineering pipelines with
   binary rubrics, model routing, and known failure modes (frontend/UI,
-  ML research, agentic systems, DevOps, distributed systems, hard systems /
-  performance). Use the matching playbook to supply Phase 2 questions and
-  the Phase 4 rubric when the system being rebuilt is in one of these
-  domains. Its README's "Project bootstrap" section (CLAUDE.md + PROGRESS.md
+  design craft, game dev, ML research, agentic systems, DevOps, distributed
+  systems, hard systems / performance). Use the matching playbook to supply
+  Phase 2 questions and the Phase 4 rubric when the system being rebuilt is
+  in one of these domains. Its README's "Project bootstrap" section (CLAUDE.md + PROGRESS.md
   ledger + SPEC + decisions/) is the default skeleton for any software
   system this skill builds.
 

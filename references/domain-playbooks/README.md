@@ -19,7 +19,9 @@ Fable 5 on 2026-07-07.
 
 | File | Domain |
 |---|---|
-| `frontend-ui.md` | Web/mobile UI apps |
+| `frontend-ui.md` | Web/mobile UI apps (build pipeline) |
+| `design-craft.md` | Visual design knowledge — typography, color, space, motion, anti-slop checklist |
+| `game-dev.md` | Games — core loop, game feel numbers (juice table), architecture, playtesting |
 | `ml-research.md` | Machine learning / deep learning research |
 | `agentic-systems.md` | LLM apps, agents, prompt pipelines |
 | `devops-infra.md` | CI/CD, infrastructure, deployment |

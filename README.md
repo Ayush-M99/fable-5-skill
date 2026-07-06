@@ -14,10 +14,12 @@ Claude Fable 5 on 2026-07-07, its last included-in-plan day.
   after every run. This file is the compounding part — keep it when upgrading.
 - `references/domain-playbooks/` — engineering pipelines with binary
   verification rubrics, per-step model routing, and known failure modes for
-  six domains: frontend/UI, ML research, agentic systems, DevOps,
-  distributed systems, hard systems/performance. Plus a universal project
-  bootstrap (CLAUDE.md + PROGRESS.md ledger + SPEC + decisions/) any software
-  project should start with.
+  eight domains: frontend/UI, design craft (typography/color/space/motion as
+  numbers, anti-slop checklist), game dev (core-loop-first, the juice table
+  of game-feel numbers, playtest rules), ML research, agentic systems,
+  DevOps, distributed systems, hard systems/performance. Plus a universal
+  project bootstrap (CLAUDE.md + PROGRESS.md ledger + SPEC + decisions/) any
+  software project should start with.
 - `references/debugging-protocol.md` — procedural debugging: reproduce,
   read the error, one written hypothesis at a time, bisection, hard rules.
 - `references/escalation-and-limits.md` — how a cheap model detects it's out
