@@ -24,6 +24,8 @@ Fable 5 on 2026-07-07.
 | `game-dev.md` | Games — core loop, game feel numbers (juice table), architecture, playtesting |
 | `ml-research.md` | Machine learning / deep learning research |
 | `agentic-systems.md` | LLM apps, agents, prompt pipelines |
+| `api-design.md` | APIs and library interfaces — contracts, errors, evolution |
+| `data-viz.md` | Charts and dashboards — chart choice by lookup, honesty rules |
 | `devops-infra.md` | CI/CD, infrastructure, deployment |
 | `distributed-systems.md` | Backends, queues, multi-service systems |
 | `systems-performance.md` | Low-level, performance-critical, hard systems |

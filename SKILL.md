@@ -128,6 +128,10 @@ raise its own reasoning effort.
 
 ## Standing discipline (applies whenever this skill is active, any phase)
 
+- `references/thinking-protocol.md` — problem decomposition as procedure:
+  restate, work backward from done, cheapest disproof first, invariant
+  hunting, case enumeration, sanity checks, confusion-is-data. Read this
+  one FIRST; every other file assumes it.
 - `references/debugging-protocol.md` — reproduce → read error → one written
   hypothesis → smallest test → judge honestly. Two wrong hypotheses = stop.
 - `references/escalation-and-limits.md` — the seven triggers that mean
@@ -139,3 +143,9 @@ raise its own reasoning effort.
 - `references/craft-rules.md` — decision tables replacing taste: patch vs
   rewrite, dependency vs write-it, rule of three, when to stop polishing,
   git discipline, reporting standards, security floor.
+- `references/code-navigation.md` — the 15-minute recon before touching an
+  unfamiliar codebase; search strategy cheapest-first; the change map.
+- `references/testing-strategy.md` — what to test and what not to,
+  determinism rules, watch-it-fail rule, honesty rules.
+- `references/writing-craft.md` — prose/docs/copy: point first, concrete
+  beats abstract, the deletion rules, microcopy, per-doc-type structure.
